@@ -1,11 +1,36 @@
 ## Parte 1
 
-intall Vue and some libraries
-Set up libraries
-Create a component for the menu
-Create a simple page for sign up
-Create a simple page for log in
-Create a simple page for the Dashboard
-Create a simple page for my account
-Configure the Vuex store
-Set up router guards
+1.-Install Vue and some libraries
+2.-Set up libraries
+3.-Create a component for the menu
+4.-Create a simple page for sign up
+5.-Create a simple page for log in
+6.-Create a simple page for the Dashboard
+7.-Create a simple page for my account
+8.-Configure the Vuex store
+9.-Set up router guards
+
+
+
+## 1
+
+	npm install -g @vue/cli
+## Crear vue project
+	vue create seguimiento_crm
+
+## configura vue
+	
+  manually
+	Babel, Router, Vuex, CSS Pre processors,
+  #3x
+  Sass/SCSS dart-sass
+  in dedicated config files
+  Save this a preset for future projects --> N
+
+## Ir al directorio recién creado:
+	cd seguimiento_crm
+
+
+
+
+	
