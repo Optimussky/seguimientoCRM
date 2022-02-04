@@ -30,6 +30,41 @@
 ## Ir al directorio recién creado:
 	cd seguimiento_crm
 
+## Instalar otras dependencias en el front
+	npm install bulma
+	npm install bulma-toast
+	npm install axios
+
+## 2	Configurar axios en el main.js
+
+	import axios from 'axios'
+
+	// Establecer la URL por default para el BACKEND
+	axios.defaults.baseURL = '10.13.123.53:8000'
+	// Añadir axios junto con el router
+	createApp(App).use(store).use(router, axios).mount('#app')
+
+## Añadir Bulma al App.vue
+
+<template>
+  <router-view />
+</template>
+
+<style lang="scss">
+@import "../node_modules/bulma/";
+</style>
+
+
+
+
+
+
+	
+	
+
+
+	
+
 
 
 

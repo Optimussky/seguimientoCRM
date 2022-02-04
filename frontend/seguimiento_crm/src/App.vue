@@ -1,30 +1,35 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div>
+    <Navbar />
+    <div class="columns">
+      <Menu />
+    </div>
+
+    <div class="columns">
+      <Content />
+    </div>
+
+    <Footer />
+    <router-view />
   </div>
-  <router-view/>
 </template>
 
+<script>
+import Navbar from "@/components/layout/Navbar";
+import Menu from "@/components/layout/Menu";
+import Content from "@/components/layout/Content";
+import Footer from "@/components/layout/Footer";
+export default {
+  name: "App",
+  components: {
+    Navbar,
+    Menu,
+    Content,
+    Footer,
+  },
+};
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+@import "../node_modules/bulma/";
 </style>
