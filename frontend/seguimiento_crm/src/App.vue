@@ -1,11 +1,11 @@
 <template>
   <div>
     <Navbar />
-    <div class="columns">
+    <div class="columns" style="position: fixed">
       <Menu />
     </div>
 
-    <div class="columns">
+    <div class="columns is-centered">
       <Content />
     </div>
 
