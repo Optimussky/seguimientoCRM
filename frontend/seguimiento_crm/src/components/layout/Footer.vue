@@ -9,10 +9,17 @@
         website content is licensed
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
           >CRM FilemonSystems 1.0.1</a
-        >.
+        >
       </p>
     </div>
   </footer>
+
+  <!-- the footer will take up all unused space at the bottom 
+  <footer class="footer has-background-black has-text-white">
+    <p class="is-size-2">Footer</p>
+
+    <p>Notice that this entire space is filled up.</p>
+  </footer> -->
 </template>
 
 <script>

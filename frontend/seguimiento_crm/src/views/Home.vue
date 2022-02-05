@@ -1,6 +1,6 @@
 <template>
   <div class="home has-background-info">
-    <HelloWorld msg="Bienvenido a FilemonSystems" />
+    <Home msg="Bienvenido a FilemonSystems" />
   </div>
 </template>
 

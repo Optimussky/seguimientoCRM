@@ -1,3 +1,3 @@
 <template>
-  <h1>Home Dashboard</h1>
+  <h1>Home Dashboard V.1.0000000000000000000000000000000000000000</h1>
 </template>

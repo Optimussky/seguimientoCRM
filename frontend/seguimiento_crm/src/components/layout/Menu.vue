@@ -1,55 +1,41 @@
 <template>
-  <section class="hero is-primary">
-    <div class="hero-body">
-      <div class="card">
-        <p class="title"><strong>CRM Systems</strong></p>
-        <p class="subtitle">Seguimientos <strong>Turnados</strong> DGRH</p>
-        <br />
-      </div>
+  <!-- <div class="dashboard is-full-height hero is-success"> -->
+  <div class="dashboard hero is-success">
+    <!-- left panel -->
 
-      <aside class="menu m-2">
+    <div class="dashboard-panel-content">
+      <aside class="menu has-text-white">
         <p class="menu-label">General</p>
         <ul class="menu-list">
-          <li>
-            <router-link to="/dashboard"
-              ><strong>DasboardV2</strong></router-link
-            >
-          </li>
-          <li>
-            <router-link to="/ingreso-user">CustomersV2</router-link>
-          </li>
+          <li><a>Dashboard</a></li>
+          <li><a>Customers</a></li>
         </ul>
         <p class="menu-label">Administration</p>
         <ul class="menu-list">
-          <li><router-link to="/ingreso-user">Team Settings</router-link></li>
+          <li><a>Team Settings</a></li>
           <li>
-            <router-link to="/ingreso-user" class="is-active"
-              >Manage Your TeamV2</router-link
-            >
-
+            <a class="is-active">Manage Your Team</a>
             <ul>
-              <li><router-link to="/ingreso-user">Members</router-link></li>
-              <li><router-link to="/ingreso-user">Plugins</router-link></li>
-              <li>
-                <router-link to="/ingreso-user">Add Member</router-link>
-              </li>
+              <li><a>Members</a></li>
+              <li><a>Plugins</a></li>
+              <li><a>Add a member</a></li>
             </ul>
           </li>
-          <li><router-link to="/ingreso-user">Invitations</router-link></li>
+          <li><a>Invitations</a></li>
           <li><a>Cloud Storage Environment Settings</a></li>
-          <li>
-            <router-link to="/ingreso-user">Authentication</router-link>
-          </li>
+          <li><a>Authentication</a></li>
         </ul>
         <p class="menu-label">Transactions</p>
         <ul class="menu-list">
-          <li><router-link to="/ingreso-user">Payments</router-link></li>
-          <li><router-link to="/ingreso-user">Transfers</router-link></li>
-          <li><router-link to="/ingreso-user">Balanace</router-link></li>
+          <li><a>Payments</a></li>
+          <li><a>Transfers</a></li>
+          <li><a>Balance</a></li>
         </ul>
       </aside>
     </div>
-  </section>
+
+    <!-- main section -->
+  </div>
 </template>
 
 <script>

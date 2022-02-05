@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 
+
+
 // Establecer la URL por default para el BACKEND
 axios.defaults.baseURL = '10.13.123.53:8000'
 // Añadir axios junto con el router

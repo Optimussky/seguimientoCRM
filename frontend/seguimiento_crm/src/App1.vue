@@ -1,5 +1,4 @@
 <template>
-  <Navbar />
   <div class="dashboard is-full-height">
     <!-- left panel -->
     <div class="dashboard-panel is-one-quarter">
@@ -11,7 +10,7 @@
       <nav class="navbar is-fixed-top">
         <div class="navbar-brand">
           <span class="navbar-item">
-            <!--<Navbar />-->
+            <Navbar />
           </span>
         </div>
       </nav>
@@ -21,15 +20,14 @@
           <Container />
         </p>
       </section>
+
+      <!-- the footer will take up all unused space at the bottom -->
+      <footer class="footer"></footer>
     </div>
 
     <!-- right panel -->
-    <!--  dashboard-panel is-small is-scrollable-->
-    <div class="dashboard-panel is-small has-background-light is-scrollable">
-      <Rightbar />
-    </div>
+    <div class="dashboard-panel is-small"></div>
   </div>
-  <Footer />
 </template>
 
 <script>
