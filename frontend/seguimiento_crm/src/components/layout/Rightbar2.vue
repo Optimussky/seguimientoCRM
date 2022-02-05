@@ -1,6 +1,7 @@
 <template>
   <!-- right panel -->
-  <div class="dashboard-panel is-small has-background-light is-scrollable">
+  <div class="dashboard-panel is-small has-background-light">
+    <!--<div class="dashboard-panel is-small has-background-light is-scrollable">-->
     <p class="is-size-4 has-text-weight-light">Table of contents</p>
 
     <hr class="has-background-grey" />
@@ -52,6 +53,6 @@
 
 <script>
 export default {
-  name: "Rightbar2",
+  name: "Rightbar",
 };
 </script>
